@@ -1,0 +1,150 @@
+body {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(0,0,0,0.9);
+  background-image: url("claqueta.jpg");
+  background-size: 300px;
+  background-repeat: repeat-x;
+  background-position: top;
+  margin-top: 130px;
+}
+
+div {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Permanent Marker", serif;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
+
+
+h2 {
+    font-family:"Permanent Marker","Oswald", serif;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+address {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+address p{
+  display: inline-block;
+}
+
+address a {
+  display: inline-block;
+}
+
+address p:after {
+  content: "|";
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+address p:last-child:after {
+  content: " ";
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 73px;
+  padding-bottom: 73px;
+  padding-right: 94px;
+  padding-left: 94px;
+  overflow: auto;
+}
+
+#image {
+  grid-area: image;
+  grid-column: 3/4;
+  grid-row:1/2;
+  border-right: 2px solid white;
+  margin-right: 0px;
+}
+
+#education {
+  grid-area: education;
+  grid-column: 1/2;
+  grid-row:1/2;
+  border-left: 2px solid white;
+  padding-left: 10px;
+}
+
+#experience {
+  grid-area: experience;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-top: 20px;
+}
+
+#skills {
+  grid-area: skills;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 1.5;
+}
+
+#activities {
+  grid-area: activities;
+  grid-column: 1/4;
+  grid-row: 3/4;
+  border-bottom: 2px solid white;
+}
+
+#mail {
+  grid-area: mail;
+}
+
+#phone {
+  grid-area: phone;
+  color: white;
+}
+
+#linkedin {
+  grid-area: linkedin;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(3, 1.5fr);
+grid-template-rows: 0.4fr 1fr 0.1fr;
+margin-top: 20px;
+border-top: 2px solid white;
+}
+
+a {
+   color: white;
+}
+
+a:visited {
+  color: rgb(137,142,143);
+}
+
+a:hover {
+  color: rgb(120,99,85);
+}
+
+a:active {
+  color: rgb(0,132,205);
+}
