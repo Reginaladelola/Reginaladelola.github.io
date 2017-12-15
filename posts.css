@@ -116,8 +116,8 @@ section {
 }
 
 a {
-   color: white;
-   text-decoration: none;
+   color: rgb(25,25,25);
+    text-decoration: none;
 }
 
 a:visited {
