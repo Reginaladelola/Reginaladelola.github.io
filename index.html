@@ -1,20 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8"/>
-    <title>Regina Sánchez</title>
+    <title>Home</title>
+    <link href="index.css" rel="stylesheet"/>
+    <style>
+     @import url('https://fonts.googleapis.com/css?family=Rock+Salt|Bungee|Audiowide|Rajdhani');
+    </style>
   </head>
-
   <body>
-    <h1> Regina Sánchez </h1>
-    <p> This is my first web page. </p>
-    <p> I like: </p>
-      <ul>
-        <li>Hedgehogs</li>
-        <li> Pigs </li>
-        <li> Monkeys </li>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="curriculum.html">Résumé</a></li>
+        <li><a href="video.html">Videos</a>
+          <ul id="video">
+            <li><a href="video.html">Eli Pinedo interview</a></li>
+          </ul>
+        </li>
+        <li><a href="posts.html">Posts</a>
+          <ul id="posts">
+            <li><a href="posts.html#strange">Strange media ideas to gain audience</a></li>
+            <li><a href="posts.html#fraternities">The UM watchdog for fraternities</a></li>
+            <li><a href="posts.html#media">New media: Inform, discuss,educate</a></li>
+            <li><a href="posts.html#tongo">The other fieldwork in Tongo Tongo</a></li>
+          </ul>
+        </li>
       </ul>
-    <img src="octocat.png" alt="Octocat"/>
-    <p> This is an octocat</p>
+    </nav>
+    <div>
+      <h1>Cinema & Journalism student</h1>
+      <h2>Visit my portfolio and find out some of my works during university</h2>
+    </div>
+    <footer>Regina Sánchez Jiménez</footer>
   </body>
 </html>

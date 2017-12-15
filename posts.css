@@ -1,0 +1,135 @@
+body {
+  font-family: "Philosopher", sans-serif;
+  background-color: rgb(25,25,25);
+}
+
+h1 {
+  font-size: 64px;
+  color: white;
+}
+
+h2 {
+  font-family: "Shrikhand",serif;
+  font-size: 32px;
+}
+
+ul {
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+ul li {
+  font-family: "Rajdhani";
+  font-size: 32px;
+  color: black;
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+}
+
+ul li:after {
+  content: "|";
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul li:last-child:after {
+  content: " ";
+  padding: 0;
+}
+
+.nav li a:hover {
+  background-color: rgb(125,125,125);
+  color: white;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+
+#video>li{
+  font-size: 20px;
+  background-color: rgb(125,125,125);
+  border-bottom: solid rgba(0,0,0,0.9) 4px;
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#video>li a {
+  color: black;
+}
+#video>li a:hover{
+  color: white;
+}
+
+#video>li:after {
+  content: " ";
+}
+
+#posts>li {
+  font-size: 20px;
+  background-color: rgb(125,125,125);
+  border-bottom: solid rgba(0,0,0,0.9) 4px;
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#posts>li a {
+  color: black;
+}
+
+#posts>li a:hover{
+  color: white;
+}
+
+#posts>li:after {
+  content: " ";
+}
+
+
+div {
+width:960px;
+margin:auto;
+}
+
+section {
+  background-image: url(sheet.jpg);
+  background-size: cover;
+  border-radius: 8px;
+  padding: 20px 50px;
+  margin-top: 40px;
+}
+
+a {
+   color: white;
+   text-decoration: none;
+}
+
+a:visited {
+  color: rgb(137,142,143);
+}
+
+a:hover {
+  color: rgb(120,99,85);
+}
+
+a:active {
+  color: rgb(0,132,205);
+}
+
+/*<a href="http://www.freepik.com">Designed by aopsan / Freepik</a>*/
