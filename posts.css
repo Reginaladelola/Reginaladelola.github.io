@@ -29,6 +29,7 @@ ul li {
 }
 
 ul li:after {
+  color: white;
   content: "|";
   padding-left: 20px;
   padding-right: 20px;
@@ -115,9 +116,14 @@ section {
   margin-top: 40px;
 }
 
+section a {
+  color: black;
+  text-decoration: underline;
+}
+
 a {
-   color: rgb(25,25,25);
-    text-decoration: none;
+   color: white;
+   text-decoration: none;
 }
 
 a:visited {

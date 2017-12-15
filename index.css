@@ -40,6 +40,7 @@ ul li {
 }
 
 ul li:after {
+  color: white;
   content: "|";
   padding-left: 20px;
   padding-right: 20px;
